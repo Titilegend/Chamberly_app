@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDFE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logOutButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log_out" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginEnd="23dp"
+        android:fontFamily="@font/zabal_semibold"
+        android:text="@string/log_out"
+        android:textColor="#A378F1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logOutButton" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/chamberly_logo"
+        android:contentDescription="logo"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chamberly_logo" />
+
+    <Button
+        android:id="@+id/createChamber1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#6736B6"
+        android:fontFamily="@font/zabal_semibold"
+        android:text="@string/create_chamber"
+        android:textColor="#FBFBFB"
+        android:textSize="17sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#A378F1"
+        android:fontFamily="@font/zabal_semibold"
+        android:text="@string/search"
+        android:textSize="17sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createChamber1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

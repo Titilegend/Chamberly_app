@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512836216745",
+    "project_id": "chamberly-app",
+    "storage_bucket": "chamberly-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512836216745:android:b5579e07993b51cb1946b8",
+        "android_client_info": {
+          "package_name": "com.example.chamberlyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512836216745-3dcrchrlta2h2ue5jkdu109v4sbjhbb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTQktiubw30Ezit-wcL0Jat7h-WR4DuRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512836216745-3dcrchrlta2h2ue5jkdu109v4sbjhbb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Chamberly app</string>
+    <string name="continue_text">Continue</string>
+    <string name="display_name">Choose a Display Name</string>
+    <string name="create_chamber">Create a Chamber</string>
+    <string name="search">Search</string>
+    <string name="startChat">Start Chat</string>
+    <string name="log_out">Log out</string>
+    <string name="chamber_hint">E.g School is causing me anxiety</string>
+    <string name="chamber_hint2">E.g I don\'t have friends</string>
+    <string name="terms_title">Terms and privacy policy</string>
+
+    <string-array name="Terms_array">
+        <item>Terms and conditions</item>
+        <item>Privacy policy</item>
+        <item>I agree to the above</item>
+        <item>Cancel</item>
+    </string-array>
+
+</resources>
